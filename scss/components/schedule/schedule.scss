@@ -1,0 +1,45 @@
+.schedule {
+    &__cards {
+        .card {
+            margin: 15px 0;
+            padding: 30px 15px;
+            background: $woodsmoke;
+            &__top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 50px;
+                h3 {
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 120%;
+                }
+            }
+            &__body {
+                p {
+                    font-weight: 500;
+                }
+            }
+            &__bottom {
+                margin-top: 60px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h4 {
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 120%;
+                }
+                span {
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                    text-decoration: line-through;
+                }
+            }
+            &__btn {
+                margin: 60px 0 30px 0;
+            }
+        }
+    }
+}

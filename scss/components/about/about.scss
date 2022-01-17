@@ -1,0 +1,24 @@
+.about {
+  &__img {
+      position: relative;
+      &_absolut{
+          padding: 10 px;
+        border-radius: 192px;
+        border: 2px solid #FFFFFF;
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        bottom:  -100px;
+        width: 300px;
+        
+      }
+  }
+  &__txt {
+      display: inline-block;
+  }
+  &__btn{
+    display: inline-flex;
+    
+  }
+}
+

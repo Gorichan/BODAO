@@ -1,0 +1,65 @@
+.header {
+  margin-bottom: 50px;
+  padding: 10px 0;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .location {
+    display: flex;
+    align-items: center;
+    position: relative;
+    a {
+      font-weight: 500;
+      font-size: $font-size-md;
+      line-height: 150%;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(./../../../images/pin.svg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      left: -60px;
+      top: 0;
+      width: 50px;
+      height: 50px;
+      
+    }
+  }
+  .phone {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    a {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 150%;
+      
+    }
+    .Whats {
+      font-size: 12px;
+      line-height: 150%;
+      text-align: right;
+  }
+  &::after{
+    content: "";
+    background-image: url(./../../../images/phone.svg);
+    position: absolute;
+    background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      left: -50px;
+      top: 0;
+      width: 50px;
+      height: 50px;
+    
+  }
+  }
+  
+}

@@ -1,0 +1,33 @@
+@media (max-width: 1161px){
+  .block-instagram {
+    .d-none{
+      display: none;
+    }
+  }
+  }
+
+
+
+
+@media (max-width: 735px){
+  
+.block-instagram {
+  &__img {
+      margin: 5px 0;
+  }
+  .title-section {
+    font-size: 30px !important;
+  }
+}
+}
+
+@media (max-width: 576px){
+  .block-instagram {
+    
+    .title-section {
+      font-size: 16px !important;
+    }
+  }
+}
+
+

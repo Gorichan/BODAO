@@ -1,0 +1,23 @@
+.directions {
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .directions__img {
+      img{
+        position: relative;
+        z-index: 3;
+      }
+      .img__txt {
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 120%;
+        z-index: 5;
+      }
+    }
+  }
+}

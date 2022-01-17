@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .header__body{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header .location::after{
+        width: 35px;
+        height: 35px;
+        left: -40px;
+        top: 5px;
+    }
+    .header .phone::after {
+        width: 35px;
+        height: 35px;
+        left: -40px;
+        top: 5px;
+    }
+    .header .location a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px){
+    .header {
+        .location {
+            margin: 30px 0;
+        }
+}
+}

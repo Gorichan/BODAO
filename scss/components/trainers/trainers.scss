@@ -1,0 +1,42 @@
+.trainers {
+  margin-top: 200px;
+
+  &__box {
+    img{
+      z-index: 1;
+    }
+    
+  }
+  .trainers__txt {
+   margin-top: -40px;
+   z-index: 2;
+   h3{
+    span{
+      color: black;
+      text-shadow: 1px 1px white, -1px -1px white;
+  }
+  @supports(-webkit-text-stroke: 1px white){
+      span{
+          color: transparent;
+          -webkit-text-stroke: 1px white;
+          text-shadow: none;
+      }
+  }
+   }
+  
+    
+
+    h3 {
+      font-size: 64px;
+      line-height: 120%;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+    }
+  }
+}
